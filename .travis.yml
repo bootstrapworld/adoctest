@@ -28,6 +28,7 @@ script:
   - ./build-something-a.sh
   - ./build-something-w.sh
   - ./build-something-p.sh
+  - ./build-something-n.sh
 
 after_success:
   - ./travis-push.sh
